@@ -48,6 +48,26 @@
   transform: translate(0% 10%);
 }
 
+.inputemail{
+  border: none;
+  position: relative;
+  padding: 15px 32px;
+  position: relative;
+  top: 100px;
+  left: 755px;
+}
+
+.button-subscribe{
+  color: black;
+  background-color: orange;
+  border:none;
+  padding: 15px 32px;
+  text-align: center;
+  position: relative;
+  top: 100px;
+  left: 756px;
+}
+
   body {
     position: relative;
     padding:0%
@@ -102,6 +122,16 @@ position: relative;
 background-size: cover;
 background-position: 50% 50%;
 }  
+/* Newsletter*/
+  #newsletter  {
+    background-color: rgb(36, 36, 36);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url(newsletter-bg.jpg);
+  }
+
 </style>
 </head>
 
@@ -220,6 +250,21 @@ background-position: 50% 50%;
   <!--menambahkan card testimony-->
 
 </div>
+
+<div id="newsletter" class="container-fluid textpage6" > 
+  <p>Want to stay in touch?</p>
+  <h1>NEWSLETTER SUBSCRIBE</h1>
+  <p>In order to start receiving our news, all you have to do is enter your email adress</p>
+  <p>Everything else will bt taken care by us, We will send you emails</p>
+  <p>containing information about game. We don't spam.</p>
+  <div class="newsletter">
+    <form method="GET" action="www.binaracademy.com" class="newsletter-form" target="_blank">
+      <input type="email" name="EMAIL" id="email" placeholder="Your E-mail adress" class="inputemail">
+      <button type="submit" class="button-subscribe">Subscribe now!</button>
+    </form>
+  </div>
+</div>
+
 
 </body>
 </html>

@@ -80,6 +80,30 @@
     transform: translate(8%,500%);
 }
 
+.textpage6 h1 {
+    color: whitesmoke;
+    display: flex;
+    align-items: right;
+    position: relative;
+    top: 90px;
+    left: 750px;
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.textpage6 p{
+    color: white;
+    display: flex;
+    align-items:left;
+    margin: 0.5%;
+    font-family: 'Trebuchet MS';
+    font-size: 18px;
+    text-align: right;
+    position: relative;
+    top: 90px;
+    left: 750px;
+}
+
 @media only screen and (max-width: 600 px) {
     body {
         background:scroll;
