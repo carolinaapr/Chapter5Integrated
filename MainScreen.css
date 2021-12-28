@@ -43,12 +43,30 @@
 
 .textpage3 h1 {
     color: whitesmoke;
+    font-family: 'Trebuchet MS';
+    font-size: 42px;
+    position: relative;
+    top: 100px;
+    left: 800px;
 }
 
 .textpage3 p {
     color: whitesmoke;
+    font-family: 'Trebuchet MS';
+    font-size: 18px;
+    position: relative;
+    top: 100px;
+    left: 800px;
 }
 
+.poinpage3 {
+    color: orange;
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+    position: relative;
+    top: 100px;
+    left: 760px;
+}
 
 .textpage4 h1 {
     color: whitesmoke;
