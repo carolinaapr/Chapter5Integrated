@@ -1,0 +1,22 @@
+
+body{
+    /**/
+    background-image: linear-gradient(to right, #ad5389 , #3c1053);
+    font-family: 'Trebuchet MS';
+}
+
+.center-div {
+    padding-top: 10%;
+}
+
+.btn.btn-success {
+    padding: .4em 2em;
+}
+form{
+    padding: 0 3em;
+}
+
+#login.title > span {
+    font-family: 'Trebuchet MS';
+    font-size: .8em;
+}
